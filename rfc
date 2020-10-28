@@ -2,6 +2,7 @@
 #!/usr/bin/bash
 
 GREEN='\e[92m'
+NOCOLOR='\033[0m'
 
 # We can store arguments from bash command line in special array
 args=("$@")
@@ -43,4 +44,6 @@ echo "{
 touch $FILE_NAME.scss
 
 echo -e "${GREEN}Done!"
+echo -e "${NOCOLOR}Good bye."
+
 
