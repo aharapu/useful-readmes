@@ -15,7 +15,7 @@
 
 ### My bash scripts
 
-#### Syntax: `rfc component-name`
+#### Syntax:&nbsp;&nbsp; `rfc component-name`
 Creates a react component with the following folders and files:
 
     .
@@ -25,4 +25,14 @@ Creates a react component with the following folders and files:
     │   ├── component-name.test.js          # Test file
     │   ├── component-name.scss             # Styling file
     │   └── package.json                    # Used for imports
+    └── ...
+
+Also works with multiple components.
+#### Syntax:&nbsp;&nbsp; `rfc Comp1 Comp2 Comp3`
+
+    .
+    ├── ...
+    ├── Comp1
+    ├── Comp2
+    ├── Comp3
     └── ...
