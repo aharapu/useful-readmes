@@ -1,19 +1,22 @@
-### My custom snippets
-#### For VSCode's ES7 React/Redux/GraphQL/React-Native snippets extension
+## My custom snippets
 
+[How to create custom snippets in VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets)
+
+#### ball
 ```javascript
-    "beforeAll": {
-      "prefix": "ball",
-      "body": [
-        "beforeAll(() => {",
-        "\t$1",
-        "})"
-      ],
-      "description": "Writes a beforeAll function in your test file."
-    },
+beforeAll(() => {
+
+})
 ```
 
-### My bash scripts
+<hr><br>
+
+## My bash scripts
+
+##### To use a script command, use the ".sh" file with the same name.
+<br>
+
+### React Component
 
 #### Syntax:&nbsp;&nbsp; `rfc component-name`
 Creates a react component with the following folders and files:
